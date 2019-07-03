@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/* Font for list-bg.png */
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+
+body{
+  width:960px;
+  margin: 30px auto;
+}
+.container-flexbox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#iconUl ul li {
+  display:inline-block;
+}
+#gap{
+  margin-left: 5px;
+}
+#logo {
+  display: inline-block;
+}
+#logo2 {
+  display: inline-block;
+}
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding: 0; 
+  
+  font-weight: bolder;
+}
+h5{
+  font-size:10px;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  color:grey;
+  margin: 0;
+  padding: 0;
+}
+.line{
+  height: 10px;
+  width:960px;
+  background-image: url('https://elijah-dungan.github.io/imagebucket/hr-img.png');
+  margin-bottom: 20px;
+}
+#flexBoxPrint{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:7px;
+ 
+ }
+ .print{
+  vertical-align: top;
+  display:inline-block;
+  margin-bottom: 20px;
+ }
+
+#hero-img {
+  width: 100%;
+}
+#p1{
+  margin-top: 30px;
+}
+
+#bottomLine{
+  margin-top: 30px;
+}
+#flexBoxFooter{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.footer-div {
+  display: inline-block;
+  margin-top: 0;
+  vertical-align: top;
+}
+ 
+button{
+  background-color:rgb(140, 20, 20);
+  color: white;
+  height: 40px;
+  width: 120px;
+  vertical-align: top;
+}
+h3{
+  font-weight: bold;
+}
+#allRights{
+  text-align: center;
+  color: grey;
+
+}
+#allRights div img{
+  margin: 30px 0px;
+}
+form{
+  display:inline-block;
+  margin:20px 100px 20px 50px;
+}
+#checkboxForm{
+  margin-top: 30px;
+  background-image: url(../chocolate-pizza/img/list-bg.png);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+}
